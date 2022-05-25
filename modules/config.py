@@ -17,9 +17,6 @@ aiohttpsession = aiohttp.ClientSession()
 
 DATABASE_URL = getenv("DATABASE_URL", "XXXXX")
 
-if MONGO_DB:
-    MONGO_DB = MONGO_DB
-else: 
-    MONGO_DB = "mongodb+srv://Zaid:Zaid@cluster0.4bszo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Zaid:Zaid@cluster0.4bszo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority") 
     
     
