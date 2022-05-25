@@ -17,14 +17,6 @@
             "description": "Pyrogram String Session",
             "required": true
         },
-        "HEROKU_API": {
-            "description": "Enter You Heroku Api there",
-            "required": false
-        },
-        "HEROKU_APP_NAME": {
-            "description": "Enter Your heroku App Name Here",
-            "required": false        
-        },    
         "SUDO_USERS": {
             "description": "Your Sudo User ID",
             "required": true
