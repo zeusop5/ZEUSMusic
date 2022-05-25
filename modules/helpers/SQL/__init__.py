@@ -4,9 +4,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import scoped_session, sessionmaker
 import motor.motor_asyncio
-
-DB_URL = DB_URL
-MONGO_DB = "mongodb+srv://Zaid:Zaid@cluster0.4bszo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+from modules.config import DB_URL, MONGO_DB
 
 
 mongo_dbb = motor.motor_asyncio.AsyncIOMotorClient(MONGO_DB)
