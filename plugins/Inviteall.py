@@ -3,9 +3,9 @@ from pyrogram.types import Message
 from modules.config import SUDO_USERS
 import asyncio
 
-@Client.on_message(filters.command(["inviteall", "kidnapall"], [".", "!"]) & filters.user(SUDO_USERS))
+@Client.on_message(filters.command(["inviteall", "kidnapall"], [".", "/", "!"]) & filters.user(SUDO_USERS))
 async def inviteall(client: Client, message: Message):
-    hero = await message.reply_text("⚡ Gime Title also\n ex: /inviteall @testing")
+    hero = await message.reply_text("Starting...")
     text = message.text.split(" ", 1)
     queryy = text[1]
     chat = await client.get_chat(queryy)
@@ -13,7 +13,7 @@ async def inviteall(client: Client, message: Message):
     await hero.edit_text(f"inviting users from {chat.username}")
     async for member in client.iter_chat_members(chat.id):
         user= member.user
-        zxb= ["online" , "recently", "within_week"]
+        zxb= ["online" , "recently"]
         if user.status in zxb:
            try:
             await client.add_chat_members(tgchat.id, user.id)
