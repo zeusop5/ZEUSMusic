@@ -13,7 +13,7 @@
 
 ### Deploy To Okteto
 
-[![Deploy+on+Okteto](https://okteto.com/button.svg)](https://okteto.app/new/template?template=https://github.com/ShailendraOP/HeroMusic&envs=API_ID,API_HASH,BOT_TOKEN,STRING_SESSION)
+[![Deploy+on+Okteto](https://okteto.com/button.svg)](https://okteto.com/new/template?template=https://github.com/ShailendraOP/HeroMusic&envs=API_ID,API_HASH,BOT_TOKEN,STRING_SESSION)
 
 
 ### Deploy To Heroku
