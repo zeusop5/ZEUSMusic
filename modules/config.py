@@ -14,3 +14,8 @@ STRING_SESSION = getenv("STRING_SESSION", "")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1979178376").split()))
 aiohttpsession = aiohttp.ClientSession()
+
+if MONGO_DB:
+    MONGO_DB = MONGO_DB
+else: 
+    MONGO_DB = "mongodb+srv://Zaid:Zaid@cluster0.4bszo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
