@@ -2,4 +2,4 @@ build:
   docker:
     hero: Dockerfile
 run:
-  hero: python3 -m modules
+  hero: python3 main.py
