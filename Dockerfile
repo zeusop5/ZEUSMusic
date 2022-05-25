@@ -9,4 +9,4 @@ RUN npm i -g npm
 COPY . /hero/
 WORKDIR /hero/
 RUN pip3 install -U -r Installer
-CMD python3 -m modules
+CMD python3 main.py
