@@ -15,7 +15,7 @@ COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1979178376").split()))
 aiohttpsession = aiohttp.ClientSession()
 
-DB_URL = DB_URL 
+DATABASE_URL = getenv("DATABASE_URL", "XXXXX")
 
 if MONGO_DB:
     MONGO_DB = MONGO_DB
