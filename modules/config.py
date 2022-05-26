@@ -15,8 +15,4 @@ COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1979178376").split()))
 aiohttpsession = aiohttp.ClientSession()
 
-DATABASE_URL = getenv("DATABASE_URL", "XXXXX")
 
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Zaid:Zaid@cluster0.4bszo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority") 
-    
-    
