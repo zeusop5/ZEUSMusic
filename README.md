@@ -1,7 +1,7 @@
 # Best Smart Voice Chat + Spam Userbot For Telegram Groups ...
 
 
-<p align="center"><a href="https://t.me/adityahalder"><img src="https://te.legra.ph/file/a4c16c60dd1c46bbe7385.jpg"></a></p>
+<p align="center"><a href="https://t.me/adityahalder"><img src="https://telegra.ph/file/c6991356f8aef5d49cd49.jpg"></a></p>
 
 
 
